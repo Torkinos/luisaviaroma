@@ -1,0 +1,29 @@
+@import "../../../../../styles/mixins";
+
+.banner-cards {
+	width: 100%;
+
+	&__container {
+		width: 100%;
+
+		&--mobile {
+			padding-top: 48px;
+
+			@include tablet() {
+				padding-top: 0;
+			}
+
+			@include desktop() {
+				display: none;
+			}
+		}
+
+		&--desktop {
+			display: none;
+
+			@include desktop() {
+				display: block;
+			}
+		}
+	}
+}

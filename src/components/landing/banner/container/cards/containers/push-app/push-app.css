@@ -1,0 +1,25 @@
+.push-app {
+	width: 100%;
+}
+
+.push-app__qr {
+	width:       100%;
+	text-align:  center;
+	padding-top: 16px;
+}
+
+.push-app__qr img {
+	width: 144px;
+}
+
+.push-app__footer-link {
+	display:         inline-block;
+	height:          100%;
+	text-decoration: none;
+}
+
+.push-app__footer {
+	height: 100%;
+}
+
+/*# sourceMappingURL=push-app.css.map */

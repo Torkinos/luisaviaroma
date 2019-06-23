@@ -1,0 +1,44 @@
+.banner-txtbx {
+	display: inline-block;
+	width:   100%;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner-txtbx {
+		position:  absolute;
+		top:       50%;
+		left:      0;
+		transform: translateY(-50%);
+	}
+}
+
+.banner-txtbx__title {
+	color:      #ffffff;
+	width:      100%;
+	font-size:  6rem;
+	text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner-txtbx__title {
+		text-align: left;
+	}
+}
+
+.banner-txtbx__text {
+	width: 100%;
+}
+
+.banner-txtbx__text p {
+	color:      #ffffff;
+	font-size:  1.6rem;
+	text-align: left;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner-txtbx__text p {
+		font-size: 1.4rem;
+	}
+}
+
+/*# sourceMappingURL=text-box.css.map */

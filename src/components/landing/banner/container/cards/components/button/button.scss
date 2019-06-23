@@ -1,0 +1,15 @@
+.ban-button {
+	width:            100%;
+	background-color: #313131;
+	color:            #f3f3f3;
+	text-align:       center;
+	padding:          12px 0;
+	text-transform:   uppercase;
+	box-shadow:       none;
+	border:           none;
+	cursor:           pointer;
+
+	&:hover {
+		opacity: .7;
+	}
+}

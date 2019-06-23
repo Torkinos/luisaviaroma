@@ -1,0 +1,36 @@
+.banner-bg {
+	position: absolute;
+	top:      0;
+	left:     0;
+	height:   100%;
+	width:    100%;
+}
+
+.banner-bg__text {
+	position:       absolute;
+	left:           0;
+	padding:        0;
+	margin:         0;
+	color:          #ffffff;
+	opacity:        0.2;
+	text-transform: uppercase;
+	font-size:      72vh;
+	line-height:    50vh;
+	font-weight:    bold;
+	text-align:     left;
+}
+
+.banner-bg__text::first-letter {
+	margin-left: -0.12em;
+}
+
+.banner-bg__text--top {
+	top:        0;
+	margin-top: -0.12em;
+}
+
+.banner-bg__text--bot {
+	bottom: 0;
+}
+
+/*# sourceMappingURL=background-text.css.map */

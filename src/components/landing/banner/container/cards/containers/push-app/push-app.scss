@@ -1,0 +1,23 @@
+.push-app {
+	width: 100%;
+
+	&__qr {
+		width:       100%;
+		text-align:  center;
+		padding-top: 16px;
+
+		img {
+			width: 144px;
+		}
+	}
+
+	&__footer-link {
+		display:         inline-block;
+		height:          100%;
+		text-decoration: none;
+	}
+
+	&__footer {
+		height: 100%;
+	}
+}

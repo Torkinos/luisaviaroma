@@ -1,0 +1,13 @@
+.bcard-desk {
+	display: inline-block;
+}
+
+.bcard-desk__slot {
+	display: inline-block;
+}
+
+.bcard-desk__slot--one {
+	margin-right: 24px;
+}
+
+/*# sourceMappingURL=desktop.css.map */

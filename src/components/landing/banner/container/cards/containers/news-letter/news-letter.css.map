@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sourceRoot": "",
+	"sources": [
+		"news-letter.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;EACC;;AAEA;EACC;;AAGD;EACC;EACA;EACA;;AAGD;EACC;EACA;;AAEA;EACC;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAIF;EACC;EACA;EACA;EACA;EACA",
+	"file": "news-letter.css"
+}

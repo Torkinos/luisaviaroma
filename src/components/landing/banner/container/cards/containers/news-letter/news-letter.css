@@ -1,0 +1,40 @@
+.bnews-letter {
+	padding-top: 16px;
+}
+
+.bnews-letter__textfield {
+	width: 100%;
+}
+
+.bnews-letter__tandc {
+	width:       100%;
+	padding-top: 24px;
+	text-align:  left;
+}
+
+.bnews-letter__checkbox {
+	display: inline-block;
+	width:   32px;
+}
+
+.bnews-letter__checkbox input {
+	width:          16px;
+	height:         16px;
+	margin:         0;
+	padding:        0;
+	background:     none;
+	border-radius:  0;
+	outline:        none;
+	box-shadow:     none;
+	vertical-align: top;
+}
+
+.bnews-letter__tandc--text {
+	vertical-align: top;
+	display:        inline-block;
+	width:          calc(100% - 32px);
+	color:          #9c9c9c9c;
+	font-size:      1.1rem;
+}
+
+/*# sourceMappingURL=news-letter.css.map */

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sourceRoot": "",
+	"sources": [
+		"background-text.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;EACC;EACA;EACA;EACA;EACA;;AAEA;EACC;EACA;EACA;EACA;EAEA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACC;;AAGD;EACC;EACA;;AAGD;EACC",
+	"file": "background-text.css"
+}

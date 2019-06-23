@@ -1,0 +1,52 @@
+.banner-container {
+	width:      100%;
+	text-align: center;
+	padding:    48px 0;
+	position:   relative;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner-container {
+		padding:   0;
+		position:  absolute;
+		top:       50%;
+		left:      50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.banner-container__inner {
+	display: inline-block;
+	width:   336px;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner-container__inner {
+		max-height: 392px;
+		text-align: left;
+		width:      unset;
+		position:   relative;
+	}
+}
+
+.banner-container__txtbx {
+	display: inline-block;
+	width:   100%;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner-container__txtbx {
+		width:          480px;
+		height:         344px;
+		margin-right:   32px;
+		position:       relative;
+		vertical-align: top;
+	}
+}
+
+.banner-container__cards {
+	display:        inline-block;
+	vertical-align: top;
+}
+
+/*# sourceMappingURL=container.css.map */

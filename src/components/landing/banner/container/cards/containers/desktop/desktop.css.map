@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sourceRoot": "",
+	"sources": [
+		"desktop.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;EACC;;AAEA;EACC;;AAEA;EACC",
+	"file": "desktop.css"
+}

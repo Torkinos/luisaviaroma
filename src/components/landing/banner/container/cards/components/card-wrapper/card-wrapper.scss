@@ -1,0 +1,48 @@
+@import "../../../../../../../styles/mixins";
+
+.bcard-wrapper {
+	display:          inline-block;
+	background-color: #ffffff;
+	text-align:       center;
+	//
+	width:            336px;
+	height:           392px;
+	padding:          32px;
+
+	@include tablet() {
+		width:   320px;
+		height:  344px;
+		padding: 24px;
+	}
+
+	&__body {
+		width:  100%;
+		height: calc(100% - 44px);
+	}
+
+	&__title {
+		width:          100%;
+		text-align:     center;
+		font-size:      1.6rem;
+		font-weight:    bold;
+		text-transform: capitalize;
+	}
+
+	&__text {
+		padding-top: 16px;
+
+		ul {
+			padding: 8px 0 0 16px;
+		}
+
+		p, ul, li {
+			text-align: left;
+			font-size:  1.3rem;
+			margin:     0;
+		}
+	}
+
+	&__footer {
+		height: 44px;
+	}
+}

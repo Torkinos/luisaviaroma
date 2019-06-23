@@ -1,0 +1,11 @@
+.bcard-desk {
+	display: inline-block;
+
+	&__slot {
+		display: inline-block;
+
+		&--one {
+			margin-right: 24px;
+		}
+	}
+}

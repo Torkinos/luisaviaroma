@@ -1,0 +1,49 @@
+@import "../../../../styles/mixins";
+
+.banner-container {
+	width:      100%;
+	text-align: center;
+	//
+	padding:    48px 0;
+	position:   relative;
+
+	@include tablet() {
+		padding:   0;
+		position:  absolute;
+		top:       50%;
+		left:      50%;
+		transform: translate(-50%, -50%);
+	}
+
+	&__inner {
+		display: inline-block;
+		//
+		width:   336px;
+
+		@include tablet() {
+			max-height: 392px;
+			text-align: left;
+			width:      unset;
+			position:   relative;
+		}
+	}
+
+	&__txtbx {
+		display: inline-block;
+		//
+		width:   100%;
+
+		@include tablet() {
+			width:          480px;
+			height:         344px;
+			margin-right:   32px;
+			position:       relative;
+			vertical-align: top;
+		}
+	}
+
+	&__cards {
+		display:        inline-block;
+		vertical-align: top;
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sourceRoot": "",
+	"sources": [
+		"button.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;EACC;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACC",
+	"file": "button.css"
+}
