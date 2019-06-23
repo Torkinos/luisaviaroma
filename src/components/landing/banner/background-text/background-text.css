@@ -18,6 +18,7 @@
 	line-height:    50vh;
 	font-weight:    bold;
 	text-align:     left;
+	user-select:    none;
 }
 
 .banner-bg__text::first-letter {
