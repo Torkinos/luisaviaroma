@@ -9,3 +9,4 @@ export const fetchData = () => {
 export const setData = payload => {
 	return { type: actionType.SET_DATA, payload };
 };
+

@@ -1,7 +1,8 @@
 import * as actionType from "./action.types";
 
 const initialState = {
-	data: null,
+	data:     null,
+	filtered: null
 };
 
 // reducers

@@ -6,8 +6,9 @@ export const getData = createSelector(
 	[data],
 	data => {
 		if (data) {
-			return data.slice(0, 6);
+			return data;
 		}
+
 		return null;
 	}
 );

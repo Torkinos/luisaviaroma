@@ -43,7 +43,8 @@ and limited time offers.</p>`,
 };
 
 export const CARDS = {
-	men:    "shop men",
-	women:  "shop women",
-	search: "Testo da ricercare"
+	men:       "shop men",
+	women:     "shop women",
+	search:    "Testo da ricercare",
+	noResults: "no results"
 };

@@ -8,4 +8,13 @@
 		width:       100%;
 		padding-top: 24px;
 	}
+
+	&__no-result {
+		width:          100%;
+		padding:        24px 0 48px 0;
+		text-align:     center;
+		font-size:      2rem;
+		color:          #9e9e9e;
+		text-transform: uppercase;
+	}
 }

@@ -21,6 +21,7 @@ const search = props => {
 			<div className = "cards-search__input">
 				<TextField
 					placeholder = { search }
+					value = { props.value }
 					fullWidth
 
 					onChange = { e => props.onChange(e.target.value) }
@@ -32,6 +33,7 @@ const search = props => {
 
 search.propTypes = {
 	title:    PropTypes.string,
+	value:    PropTypes.string,
 	onChange: PropTypes.func
 };
 

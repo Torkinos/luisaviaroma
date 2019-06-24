@@ -21,8 +21,6 @@ class CardsSection extends Component {
 
 		const { data } = this.props;
 
-		console.log("data : ", data);
-
 		return (
 			<div className = "cards-section">
 

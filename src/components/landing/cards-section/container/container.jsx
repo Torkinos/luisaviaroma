@@ -3,6 +3,7 @@ import PropTypes            from "prop-types";
 import Fuse                 from "fuse.js";
 import "./container.scss";
 
+import { CARDS }   from "../../../../static/constants/constants";
 import CardsSearch from "./search/search";
 import CardItem    from "./card/card";
 
@@ -15,23 +16,47 @@ class Container extends Component {
 			keys:      ["title"]
 		};
 		this.fuse    = new Fuse([], this.options);
-		this.state   = {};
+		this.state   = {
+			value:    "",
+			filtered: null
+		};
 	}
 
 	render() {
 
 		let cards = null;
 
+		const { value, filtered } = this.state;
+
 		const { data, title } = this.props;
 
-		if (data) {
-			cards = data.map((item, index) => {
-				return <CardItem
-					key = { index }
-					background = { item.url }
-					title = { item.title }
-				/>;
-			});
+		const { noResults } = CARDS;
+
+		// returns data depending on if search value is entered or not
+		const cardList = value.length
+										 ? filtered
+										 : data;
+
+		// returns amount to be sliced depending on window size
+		const amount = window.innerWidth < 1024
+									 ? 3
+									 : 12;
+
+		if (cardList && cardList.length) {
+			cards = cardList.slice(0, amount)
+											.map((item, index) => {
+												return <CardItem
+													key = { index }
+													background = { item.url }
+													title = { item.title }
+												/>;
+											});
+		} else {
+			cards = (
+				<div className = "cards-container__no-result">
+					{ noResults }
+				</div>
+			);
 		}
 
 		return (
@@ -40,6 +65,8 @@ class Container extends Component {
 				{/*header*/ }
 				<CardsSearch
 					title = { title }
+					value = { value }
+
 					onChange = { val => this.search(val) }
 				/>
 
@@ -52,13 +79,16 @@ class Container extends Component {
 		);
 	}
 
-	search = val => {
+	search = value => {
 
 		if (!this.fuse.list.length) {
 			this.fuse.list = this.props.data;
 		}
 
-		console.log("val : ", this.fuse.search(val));
+		this.setState({
+			filtered: this.fuse.search(value),
+			value
+		});
 	};
 }
 
