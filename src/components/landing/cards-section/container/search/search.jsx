@@ -2,7 +2,13 @@ import React     from "react";
 import PropTypes from "prop-types";
 import "./search.scss";
 
+import { CARDS } from "../../../../../static/constants/constants";
+import TextField from "@material-ui/core/TextField";
+
 const search = props => {
+
+	const { search } = CARDS;
+
 	return (
 		<div className = "cards-search">
 
@@ -13,14 +19,20 @@ const search = props => {
 
 			{/*input*/ }
 			<div className = "cards-search__input">
+				<TextField
+					placeholder = { search }
+					fullWidth
 
+					onChange = { e => props.onChange(e.target.value) }
+				/>
 			</div>
 		</div>
 	);
 };
 
 search.propTypes = {
-	title: PropTypes.string
+	title:    PropTypes.string,
+	onChange: PropTypes.func
 };
 
 export default search;

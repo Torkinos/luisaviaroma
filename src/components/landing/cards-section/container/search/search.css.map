@@ -2,9 +2,10 @@
 	"version": 3,
 	"sourceRoot": "",
 	"sources": [
-		"search.scss"
+		"search.scss",
+		"../../../../../styles/_mixins.scss"
 	],
 	"names": [],
-	"mappings": "AAAA;EACC",
+	"mappings": "AAEA;EACC;;AAEA;EACC;EACA;EACA;;AAGD;EACC;EACA;EAEA;;ACND;EDEA;IAOE",
 	"file": "search.css"
 }

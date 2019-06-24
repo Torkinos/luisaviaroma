@@ -13,7 +13,9 @@ const landing = props => {
 			<Banner />
 
 			{/*list of items*/ }
-			<CardsSection />
+			<div className = "landing__cards">
+				<CardsSection />
+			</div>
 		</div>
 	);
 };

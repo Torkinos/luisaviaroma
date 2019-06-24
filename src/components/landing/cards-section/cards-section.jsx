@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import PropTypes            from "prop-types";
 import { connect }          from "react-redux";
 import * as action          from "../actions";
+import { getData }          from "../selectors";
 import "./cards-section.scss";
 
+import { CARDS }      from "../../../static/constants/constants";
 import CardsContainer from "./container/container";
 
 class CardsSection extends Component {
@@ -15,6 +17,8 @@ class CardsSection extends Component {
 
 	render() {
 
+		const { men, women } = CARDS;
+
 		const { data } = this.props;
 
 		console.log("data : ", data);
@@ -23,10 +27,16 @@ class CardsSection extends Component {
 			<div className = "cards-section">
 
 				{/*container top*/ }
-				<CardsContainer />
+				<CardsContainer
+					title = { women }
+					data = { data }
+				/>
 
 				{/*container bottom*/ }
-				<CardsContainer />
+				<CardsContainer
+					title = { men }
+					data = { data }
+				/>
 			</div>
 		);
 	}
@@ -43,7 +53,7 @@ CardsSection.propTypes = {
 
 const mapStateToProps = state => {
 	return {
-		data: state.landing.data,
+		data: getData(state),
 	};
 };
 

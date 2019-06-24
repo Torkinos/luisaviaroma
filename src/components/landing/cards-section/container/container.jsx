@@ -1,27 +1,70 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react";
+import PropTypes            from "prop-types";
+import Fuse                 from "fuse.js";
 import "./container.scss";
 
 import CardsSearch from "./search/search";
 import CardItem    from "./card/card";
 
-const container = props => {
-	return (
-		<div className = "cards-container">
+class Container extends Component {
 
-			{/*header*/ }
-			<CardsSearch />
+	constructor(props) {
+		super(props);
+		this.options = {
+			threshold: 0.2,
+			keys:      ["title"]
+		};
+		this.fuse    = new Fuse([], this.options);
+		this.state   = {};
+	}
 
-			{/*body*/ }
-			<div className = "cards-container__body">
+	render() {
 
-				{/*card*/ }
-				<CardItem />
+		let cards = null;
+
+		const { data, title } = this.props;
+
+		if (data) {
+			cards = data.map((item, index) => {
+				return <CardItem
+					key = { index }
+					background = { item.url }
+					title = { item.title }
+				/>;
+			});
+		}
+
+		return (
+			<div className = "cards-container">
+
+				{/*header*/ }
+				<CardsSearch
+					title = { title }
+					onChange = { val => this.search(val) }
+				/>
+
+				{/*body*/ }
+				<div className = "cards-container__body">
+
+					{ cards }
+				</div>
 			</div>
-		</div>
-	);
+		);
+	}
+
+	search = val => {
+
+		if (!this.fuse.list.length) {
+			this.fuse.list = this.props.data;
+		}
+
+		console.log("val : ", this.fuse.search(val));
+	};
+}
+
+Container.propTypes = {
+	title: PropTypes.string,
+	data:  PropTypes.array
 };
 
-container.propTypes = {};
-
-export default container;
+export default Container;

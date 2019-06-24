@@ -1,15 +1,33 @@
 .card-item {
-	position: relative;
+	display:         inline-block;
+	position:        relative;
+	background:      no-repeat center;
+	background-size: cover;
+	overflow:        hidden;
+	width:           336px;
+	height:          336px;
+	margin:          24px 0;
+}
+
+@media screen and (min-width: 1024px) {
+	.card-item {
+		height: 312px;
+		width:  264px;
+		margin: 12px;
+	}
 }
 
 .card-item__title {
-	display:    inline-block;
-	max-width:  90%;
-	max-height: 90%;
-	position:   absolute;
-	top:        50%;
-	left:       50%;
-	transform:  translate(-50%, -50%);
+	display:     inline-block;
+	width:       100%;
+	padding:     24px;
+	text-align:  center;
+	font-size:   3rem;
+	font-weight: bold;
+	position:    absolute;
+	top:         50%;
+	left:        0;
+	transform:   translateY(-50%);
 }
 
 /*# sourceMappingURL=card.css.map */

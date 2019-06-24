@@ -1,10 +1,1 @@
-{
-	"version": 3,
-	"sourceRoot": "",
-	"sources": [
-		"container.scss"
-	],
-	"names": [],
-	"mappings": "AAAA;EACC",
-	"file": "container.css"
-}
+{"version":3,"sourceRoot":"","sources":["container.scss"],"names":[],"mappings":"AAEA;EACC;EACA;;AAEA;EACC;EACA","file":"container.css"}
