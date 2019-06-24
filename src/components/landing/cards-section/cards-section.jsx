@@ -1,22 +1,56 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react";
+import PropTypes            from "prop-types";
+import { connect }          from "react-redux";
+import * as action          from "../actions";
 import "./cards-section.scss";
 
 import CardsContainer from "./container/container";
 
-const cardsSection = props => {
-	return (
-		<div className = "cards-section">
+class CardsSection extends Component {
 
-			{/*container top*/ }
-			<CardsContainer />
+	constructor(props) {
+		super(props);
+		this.state = {};
+	}
 
-			{/*container bottom*/ }
-			<CardsContainer />
-		</div>
-	);
+	render() {
+
+		const { data } = this.props;
+
+		console.log("data : ", data);
+
+		return (
+			<div className = "cards-section">
+
+				{/*container top*/ }
+				<CardsContainer />
+
+				{/*container bottom*/ }
+				<CardsContainer />
+			</div>
+		);
+	}
+
+	componentDidMount() {
+		this.props.fetchData();
+	}
+}
+
+CardsSection.propTypes = {
+	data:      PropTypes.any,
+	fetchData: PropTypes.func
 };
 
-cardsSection.propTypes = {};
+const mapStateToProps = state => {
+	return {
+		data: state.landing.data,
+	};
+};
 
-export default cardsSection;
+const mapDispatchToProps = dispatch => {
+	return {
+		fetchData: () => dispatch(action.fetchData()),
+	};
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(CardsSection);
