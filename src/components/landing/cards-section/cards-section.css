@@ -1,0 +1,13 @@
+.cards-section {
+	display: inline-block;
+	padding: 24px 0;
+	width:   336px;
+}
+
+@media screen and (min-width: 1024px) {
+	.cards-section {
+		width: 864px;
+	}
+}
+
+/*# sourceMappingURL=cards-section.css.map */

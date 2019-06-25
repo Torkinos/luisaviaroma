@@ -1,0 +1,33 @@
+@import "../../../../../styles/mixins";
+
+.card-item {
+	display:         inline-block;
+	position:        relative;
+	background:      no-repeat center;
+	background-size: cover;
+	overflow:        hidden;
+	//
+	width:           336px;
+	height:          336px;
+	margin:          24px 0;
+
+	@include tablet() {
+		height: 312px;
+		width:  264px;
+		margin: 12px;
+	}
+
+	&__title {
+		display:     inline-block;
+		width:       100%;
+		padding:     24px;
+		text-align:  center;
+		font-size:   3rem;
+		font-weight: bold;
+		//
+		position:    absolute;
+		top:         50%;
+		left:        0;
+		transform:   translateY(-50%);
+	}
+}

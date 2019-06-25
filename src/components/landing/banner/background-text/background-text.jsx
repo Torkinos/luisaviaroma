@@ -1,10 +1,9 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "./background-text.css";
 
 import { BANNER } from "../../../../static/constants/constants";
 
-const backgroundText = props => {
+const backgroundText = () => {
 	return (
 		<div className = "banner-bg">
 
@@ -20,7 +19,5 @@ const backgroundText = props => {
 		</div>
 	);
 };
-
-backgroundText.propTypes = {};
 
 export default backgroundText;

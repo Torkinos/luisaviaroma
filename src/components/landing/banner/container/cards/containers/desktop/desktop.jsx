@@ -1,11 +1,10 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "./desktop.scss";
 
 import BannerNewsLetter from "../news-letter/news-letter";
 import BannerPushApp    from "../push-app/push-app";
 
-const desktop = props => {
+const desktop = () => {
 	return (
 		<div className = "bcard-desk">
 
@@ -21,7 +20,5 @@ const desktop = props => {
 		</div>
 	);
 };
-
-desktop.propTypes = {};
 
 export default desktop;

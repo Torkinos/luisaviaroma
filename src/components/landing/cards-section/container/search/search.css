@@ -1,0 +1,23 @@
+.cards-search {
+	width: 100%;
+}
+
+.cards-search__title {
+	font-size:      1.6rem;
+	text-transform: uppercase;
+	font-weight:    bold;
+}
+
+.cards-search__input {
+	display:     inline-block;
+	padding-top: 16px;
+	width:       100%;
+}
+
+@media screen and (min-width: 1024px) {
+	.cards-search__input {
+		width: 520px;
+	}
+}
+
+/*# sourceMappingURL=search.css.map */

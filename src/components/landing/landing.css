@@ -1,5 +1,10 @@
 .landing {
-	min-width: 375px;
+	text-align: center;
+	min-width:  375px;
+}
+
+.landing__cards {
+	width: 100%;
 }
 
 /*# sourceMappingURL=landing.css.map */

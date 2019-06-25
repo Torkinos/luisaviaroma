@@ -1,15 +1,23 @@
-import React      from "react";
-import PropTypes  from "prop-types";
-import ClassNames from "classnames";
+import React     from "react";
+import PropTypes from "prop-types";
 import "./card-wrapper.scss";
 
 import BannerButton from "../button/button";
 
 const cardWrapper = props => {
 
+	const button = (
+		<BannerButton
+			onClick = { props.onClick }
+			disabled = { props.disabled }
+		>
+			{ props.btnText }
+		</BannerButton>
+	);
+
 	const footer = props.footer
 								 ? props.footer
-								 : <BannerButton>{ props.btnText }</BannerButton>;
+								 : button;
 
 	return (
 		<div className = "bcard-wrapper">
@@ -43,10 +51,12 @@ const cardWrapper = props => {
 };
 
 cardWrapper.propTypes = {
-	title:   PropTypes.string,
-	text:    PropTypes.string,
-	btnText: PropTypes.string,
-	footer:  PropTypes.element
+	disabled: PropTypes.bool,
+	title:    PropTypes.string,
+	text:     PropTypes.string,
+	btnText:  PropTypes.string,
+	footer:   PropTypes.element,
+	onClick:  PropTypes.func
 };
 
 export default cardWrapper;
