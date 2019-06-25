@@ -1,11 +1,10 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "./container.scss";
 
 import BannerTextBox from "./text-box/text-box";
 import BannerCards   from "./cards/cards";
 
-const container = props => {
+const container = () => {
 	return (
 		<div className = "banner-container">
 			<div className = "banner-container__inner">
@@ -23,7 +22,5 @@ const container = props => {
 		</div>
 	);
 };
-
-container.propTypes = {};
 
 export default container;

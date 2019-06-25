@@ -1,15 +1,28 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React      from "react";
+import PropTypes  from "prop-types";
+import ClassNames from "classnames";
 import "./button.scss";
 
 const button = props => {
+
+	const buttonClass = ClassNames({
+		"ban-button":           true,
+		"ban-button--disabled": props.disabled
+	});
+
 	return (
-		<button className = "ban-button">
+		<button
+			className = { buttonClass }
+			onClick = { props.onClick }
+		>
 			{ props.children }
 		</button>
 	);
 };
 
-button.propTypes = {};
+button.propTypes = {
+	disabled: PropTypes.bool,
+	onClick:  PropTypes.func
+};
 
 export default button;

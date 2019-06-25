@@ -1,11 +1,10 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "./cards.scss";
 
 import BannerCardsMobile  from "./containers/mobile/mobile";
 import BannerCardsDesktop from "./containers/desktop/desktop";
 
-const cards = props => {
+const cards = () => {
 	return (
 		<div className = "banner-cards">
 
@@ -21,7 +20,5 @@ const cards = props => {
 		</div>
 	);
 };
-
-cards.propTypes = {};
 
 export default cards;

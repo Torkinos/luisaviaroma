@@ -1,10 +1,9 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "./text-box.scss";
 
 import { BANNER } from "../../../../../static/constants/constants";
 
-const textBox = props => {
+const textBox = () => {
 
 	const { title, text } = BANNER.textBox;
 
@@ -24,7 +23,5 @@ const textBox = props => {
 		</div>
 	);
 };
-
-textBox.propTypes = {};
 
 export default textBox;

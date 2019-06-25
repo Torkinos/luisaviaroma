@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes           from "prop-types";
 import ClassNames          from "classnames";
 import "./mobile.scss";
 
@@ -13,7 +12,7 @@ const data = [
 	{ name: "bell", icon: bell }
 ];
 
-const Mobile = props => {
+const Mobile = () => {
 
 	const [toggleNav, setToggle] = useState("mail");
 
@@ -63,7 +62,5 @@ const Mobile = props => {
 		</div>
 	);
 };
-
-Mobile.propTypes = {};
 
 export default Mobile;

@@ -3,19 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="fc18645a-ebdb-428c-8843-c9c1d0815e72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/cards-section/cards-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/cards-section/cards-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/cards-section/container/search/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/cards-section/container/search/search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/constants/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/constants/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/cards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/cards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/card-wrapper/card-wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/card-wrapper/card-wrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/news-letter/news-letter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/news-letter/news-letter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/push-app/push-app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/push-app/push-app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/banner/container/text-box/text-box.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/banner/container/text-box/text-box.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,100 +34,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/cards-section.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/cards.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="208">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/landing.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/container.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/text-box/text-box.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="624">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/constants/constants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/search/search.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/action.types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/landing/selectors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -153,13 +83,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/mobile/mobile.scss" />
         <option value="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.scss" />
-        <option value="$PROJECT_DIR$/src/index.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/landing/saga.js" />
         <option value="$PROJECT_DIR$/src/saga/index.js" />
         <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/components/landing/saga.api.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/landing.jsx" />
         <option value="$PROJECT_DIR$/src/components/landing/cards-section/container/card/card.jsx" />
         <option value="$PROJECT_DIR$/src/components/landing/cards-section/cards-section.scss" />
         <option value="$PROJECT_DIR$/src/components/landing/cards-section/container/card/card.scss" />
@@ -172,8 +100,22 @@
         <option value="$PROJECT_DIR$/src/components/landing/cards-section/cards-section.jsx" />
         <option value="$PROJECT_DIR$/src/components/landing/landing.scss" />
         <option value="$PROJECT_DIR$/src/static/constants/constants.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss" />
         <option value="$PROJECT_DIR$/src/components/landing/cards-section/container/container.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss" />
+        <option value="$PROJECT_DIR$/src/index.jsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/push-app/push-app.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.scss" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/components/card-wrapper/card-wrapper.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/news-letter/news-letter.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/landing.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/banner.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.css" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/container.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/cards/cards.jsx" />
+        <option value="$PROJECT_DIR$/src/components/landing/banner/container/text-box/text-box.jsx" />
       </list>
     </option>
   </component>
@@ -231,6 +173,25 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
               <item name="banner" type="462c0819:PsiDirectoryNode" />
+              <item name="background-text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luisaviaroma-tornike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
+              <item name="background-text" type="462c0819:PsiDirectoryNode" />
+              <item name="background-text.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luisaviaroma-tornike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,39 +200,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="cards-section" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luisaviaroma-tornike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="cards-section" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luisaviaroma-tornike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="cards-section" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luisaviaroma-tornike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luisaviaroma-tornike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
+              <item name="text-box" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luisaviaroma-tornike" type="b2602c69:ProjectViewProjectNode" />
@@ -327,17 +258,18 @@
       <updated>1561324304077</updated>
       <workItem from="1561324305450" duration="3743000" />
       <workItem from="1561368712706" duration="348000" />
-      <workItem from="1561393252440" duration="12566000" />
+      <workItem from="1561393252440" duration="18479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16657000" />
+    <option name="totallyTimeSpent" value="22570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -354,7 +286,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.17643923" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.23720682" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,23 +302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/landing.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/landing/banner/banner.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -488,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/landing/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -512,7 +413,143 @@
     <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/search/search.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/cards-section.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/news-letter/news-letter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/landing.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/container.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/components/button/button.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/constants/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/container.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -522,52 +559,58 @@
     <entry file="file://$PROJECT_DIR$/src/components/landing/landing.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/cards-section.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/background-text/background-text.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="520">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/containers/push-app/push-app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/banner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/selectors.js">
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/components/card-wrapper/card-wrapper.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/constants/constants.js">
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/cards/cards.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="208">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/cards-section/container/container.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/landing/banner/container/text-box/text-box.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="624">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -1,49 +1,106 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react";
 import "./news-letter.scss";
 
 import TextField         from "@material-ui/core/TextField";
 import { BANNER }        from "../../../../../../../static/constants/constants";
 import BannerCardWrapper from "../../components/card-wrapper/card-wrapper";
 
-const newsLetter = props => {
+class NewsLetter extends Component {
 
-	const { title, text, label, tAndC, button } = BANNER.newsLetter;
+	constructor(props) {
+		super(props);
+		this.state = {
+			value:   "",
+			valid:   false,
+			touched: false,
+			check:   false
+		};
+	}
 
-	return (
-		<BannerCardWrapper
-			title = { title }
-			text = { text }
-			btnText = { button }
-		>
-			<div className = "bnews-letter">
+	render() {
 
-				{/*input field*/ }
-				<div className = "bnews-letter__textfield">
-					<TextField
-						label = { label }
-						fullWidth
-					/>
-				</div>
+		const {
+						title, text, label, tAndC, button
+					} = BANNER.newsLetter;
 
-				{/*terms and conditions*/ }
-				<div className = "bnews-letter__tandc">
+		const { value, valid, touched, check } = this.state;
 
-					{/*checkbox*/ }
-					<div className = "bnews-letter__checkbox">
-						<input type = "checkbox" />
+		const invalid = !valid && touched;
+
+		return (
+			<BannerCardWrapper
+				title = { title }
+				text = { text }
+				btnText = { button }
+				disabled = { !(check && valid) }
+
+				onClick = { this.send }
+			>
+				<div className = "bnews-letter">
+
+					{/*input field*/ }
+					<div className = "bnews-letter__textfield">
+						<TextField
+							label = { label }
+							value = { value }
+							error = { invalid }
+							fullWidth
+
+							onChange = { e => this.validate(e.target.value) }
+						/>
 					</div>
 
-					{/*text*/ }
-					<div className = "bnews-letter__tandc--text">
-						{ tAndC }
+					{/*terms and conditions*/ }
+					<div className = "bnews-letter__tandc">
+
+						{/*checkbox*/ }
+						<div className = "bnews-letter__checkbox">
+							<input
+								type = "checkbox"
+								name = "CheckboxValue"
+								value = { check }
+
+								onChange = { this.checkToggle }
+							/>
+						</div>
+
+						{/*text*/ }
+						<div className = "bnews-letter__tandc--text">
+							{ tAndC }
+						</div>
 					</div>
 				</div>
-			</div>
-		</BannerCardWrapper>
-	);
-};
+			</BannerCardWrapper>
+		);
+	}
 
-newsLetter.propTypes = {};
+	// validation function
+	validate = value => {
+		const re    = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		const valid = re.test(String(value).toLowerCase());
 
-export default newsLetter;
+
+		this.setState({ valid, value, touched: true });
+	};
+
+	// checkbox toggle
+	checkToggle = () => {
+		this.setState(prevState => {
+			return { check: !prevState.check };
+		});
+	};
+
+	// send data handler
+	send = () => {
+
+		this.setState({
+			value:   "",
+			valid:   false,
+			touched: false,
+		});
+
+		alert("success");
+	};
+}
+
+export default NewsLetter;

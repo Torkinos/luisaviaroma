@@ -1,5 +1,4 @@
-import React     from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "./landing.scss";
 
 import Banner       from "./banner/banner";
@@ -19,7 +18,5 @@ const landing = props => {
 		</div>
 	);
 };
-
-landing.propTypes = {};
 
 export default landing;
